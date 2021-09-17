@@ -1,0 +1,17 @@
+pwd
+ls 
+cd Desktop
+cd Fall\ 2021/
+cd Comp\ Social\ Sci\ -\ 273L/
+git config --global user.name "neldeeb7"
+git config --global user.email "neldeeb@berkeley.edu"
+git config --global credential.helper cache
+git clone https://github.com/neldeeb7/Computational-Social-Science-Projects.git
+cd Computational-Social-Science-Projects
+mkdir "Project 1"
+cd Project\ 1
+vim Commands.txt
+git add Commands.txt
+git commit -m "This is a text file with the commands."
+git push
+
